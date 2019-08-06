@@ -34,16 +34,12 @@ Create new Angular project
 ```bash
 ng new <new-project-name> --style=scss
 # Install nebular
-yarn add @nebular/theme @angular/cdk @angular/animations
-# Install eva-icons for Nebular
-yarn add @nebular/eva-icons@next
-# Add NbThemeModule to AppModule
-# Install styles for Nebular -> config angular.json as follow:
-"styles": [
-  "node_modules/@nebular/theme/styles/prebuilt/default.css", // or dark.css
-],
+ng add @nebular/theme
 # Install bootstrap
-yarn add bootstrap
+ng add bootstrap
+ng add rxjs
+ng add jquery
+ng add popper.js
 # Add bootstrap.scss to angular.json
 "styles": [
     "./node_modules/bootstrap/scss/bootstrap.scss",
